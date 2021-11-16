@@ -1,0 +1,2 @@
+class CategoryJoinsController < ApplicationController
+end

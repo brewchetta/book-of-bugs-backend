@@ -1,0 +1,2 @@
+class BugItemsController < ApplicationController
+end
