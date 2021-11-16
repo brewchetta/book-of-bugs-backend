@@ -3,16 +3,16 @@ class BugItemsController < ApplicationController
 
   def index
     @bugs = BugItems.all
-    render json: @bugs, include: category
+    render json: @bugs, include: categories
   end
 
   def show
-    render json: @bug, include: category
+    render json: @bug, include: categories
   end
 
   def destroy
     @bug.destroy
-    render json: @bug, include: category
+    render json: @bug, include: categories
   end
 
   private
