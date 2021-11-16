@@ -4,5 +4,5 @@ class BugItem < ApplicationRecord
   validates :priority, presence: true
 
   has_many :category_joins
-  has_many :categories, through: :category_join
+  has_many :categories, through: :category_joins
 end
