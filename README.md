@@ -1,3 +1,5 @@
 # Book of Bugs Backend
 
-Built with Ruby on Rails.
+## Schema
+
+BugItem --< CategoryJoin >-- Category
